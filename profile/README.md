@@ -22,9 +22,9 @@ Las operaciones que realiza **Red BioPersona** son las siguientes:
 
 Es necesario descargar el JDK, o el JRE de java versión 8 o superior desde su [sitio oficial](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)., también definir la variable de entorno JAVA_HOME.
 
-### Paso 2. Descargar e instalar el sdk de Neurotechnology
+### Paso 2. Descargar e instalar dependencias
 
-Es necesario descargar e instalar el SDK de Neurotechnology en su versión Neurotec_Biometric_12_1_SDK o superior desde el siguiente [enlace.](https://download.neurotechnology.com/Neurotec_Biometric_11_2_SDK_2019-09-19.zip)
+Es necesario descargar e instalar las siguientes dependencias adjuntas en el zip [enlace.](https://www.dropbox.com/sh/pmwvbu7lxmithxv/AADQ30BTzS0zy8wOZZTwRj2Aa?dl=0)
 
 ### Paso 3. Descargar e instalar la base de datos MongoDB
 Es necesario descargar e instalar el motor de base de datos [MongoDB](https://www.mongodb.com/es), asi como el cliente [RoboMongo](https://robomongo.org/) para validar la información almacenada.
@@ -37,10 +37,12 @@ Es necesario descargar e instalar [Eclipse](https://www.eclipse.org/downloads/).
 
 Es necesario descargar e instalar los controladores del dispositivo con el cual se va hacer la captura, para los dispositivos biométricos (huella, iris, foto) los controladores están disponibles en el siguiente [enlace](https://download.neurotechnology.com/Scanner_Drivers.zip).
 
+En caso de no contar con dispositivos, es posible usar las muestras del folder [x-resources](https://gitlab.com/redbiopersona/x-resources "x-resources")
+
 ### Paso 6.  Configuración del codigo
 
 El servidor cuenta con 2 archivos de configuración:
-- config_en.properties._ se encarga de definir el comportamiento de la aplicación como lo son (Dirección y puerto del servidor de licencia Neuro, el QualityThreshold, MatchingThreshold de la captura y si se desea o no salvar la muestra capturada en el directorio, así como él envió de emails en caso de una exception).
+- config_en.properties._ se encarga de definir el comportamiento de la aplicación como lo son (Dirección y puerto del los servicios, el QualityThreshold, MatchingThreshold de la captura y si se desea o no salvar la muestra capturada en el directorio, así como él envió de emails en caso de una exception).
 
 - log4j.properties._ se encarga de definir la ruta en donde se almacenaran los logs de la aplicación, así como su formato de salida por ejemplo:
 
