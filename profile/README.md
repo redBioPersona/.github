@@ -16,14 +16,24 @@ Las operaciones que realiza **Red BioPersona** son las siguientes:
 
 - **Eliminación**: Proceso que elimina una muestra biométrica enrolada o los datos del sujeto.
 
-Los alcances de **RedBioPersona** y posible implementación en el mercado son:
+Los alcances de **Red BioPersona** y posible implementación en el mercado son:
 - Autenticación e inicio de sesión del usuario
 - Pago y transferencias eléctronicas mediante el uso de biometria 
 - Autenticación a información sensible
 - Aceptación por medio de voz a procesos telefonicos 
 - Control perimetral, acceso fisico a sitios restringidos
 
+[========]
 
+# Caso de uso
+### Control de acceso
+
+El sistema de asistencias o control de acceso, permite almacenar los registros de asistencia de los empleados
+
+### Registro de Visitas
+
+
+[========]
 
 # Instalación y Configuración para la ambientación de Red BioPersona
 
@@ -72,7 +82,7 @@ Cada servicio cuenta con un archivo de configuración:
 Por ultimo, importe desde Eclipse los proyectos y ejecutelos para realizar el flujo de RedBioPersona.
 
 
-### Paso 6.  Consumir el demo
+### Paso 8.  Consumir el demo
 
 
 Para consumir el servicio es necesario:
