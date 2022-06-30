@@ -23,17 +23,19 @@ Los alcances de **Red BioPersona** y posible implementación en el mercado son:
 - Aceptación por medio de voz a procesos telefonicos 
 - Control perimetral, acceso fisico a sitios restringidos
 
-[========]
 
 # Caso de uso
 ### Control de acceso
 
-El sistema de asistencias o control de acceso, permite almacenar los registros de asistencia de los empleados
+El sistema de asistencias o control de acceso, permite almacenar los registros de asistencia de los empleados. Permite que el usuario se autentique por medio de reconocimiento facial y dactilar.
+
+Adicional el sistema tiene un registro de metricas
+
+[![Inicio](https://github.com/redBioPersona/x-docs/blob/main/imgs/PantallaInicio.png?raw=true "Inicio")](https://github.com/redBioPersona/x-docs/blob/main/imgs/PantallaInicio.png?raw=true "Inicio")
 
 ### Registro de Visitas
 
 
-[========]
 
 # Instalación y Configuración para la ambientación de Red BioPersona
 
